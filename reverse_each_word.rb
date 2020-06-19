@@ -2,6 +2,6 @@
 def reverse_each_word(sentence)
    string = []
    array = sentence.split(" ")
-   string.join(" ") << array.collect {|word| word.reverse}
-  
+   string << array.collect {|word| word.reverse}
+   string.join(" ")
 end
