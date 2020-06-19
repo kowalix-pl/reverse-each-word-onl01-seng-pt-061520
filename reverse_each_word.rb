@@ -1,5 +1,7 @@
 require 'pry'
 def reverse_each_word(sentence)
-  sentence.split(",").each {|word| word.reverse} 
-  return sentence.join(" ")
+  array = sentence.split(",")
+  array.each {|word| word.reverse} 
+  return array.join(" ")
+  # binding.pry
 end
