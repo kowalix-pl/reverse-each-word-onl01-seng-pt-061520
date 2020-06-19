@@ -1,4 +1,5 @@
 require 'pry'
 def reverse_each_word(sentence)
-    sentence.split(",").each {|word| word.reverse} 
+    sentence.reverse
+    # sentence.split(",").each {|word| word.reverse} 
 end
